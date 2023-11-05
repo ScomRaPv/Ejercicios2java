@@ -11,15 +11,15 @@ if (numero1==numero2) {console.log ("Los numeros son iguales")
  } 
 
  /* ejercicio 2 */
- /*
- let numero3 = prompt ("introduce un numnero")
+/*
+let numero3 = prompt ("introduce un numnero")
 console.log(numero3);
 let numero4 = prompt ("introduce otro numero")
 console.log(numero4);
 if (numero3==numero4) {console.log ("Los numeros son iguales")  
 }
- else {console.log("Los numeros son diferentes")
- } 
+else {console.log("Los numeros son diferentes")
+} 
 /* ejercicio 3 */
 /*
 let numero5 = prompt ("introduce un numnero")
@@ -68,8 +68,8 @@ if (licencia==true) {
    console.log("Puede manejar");
 } else{ console.log("No puede manejar");}
 
-/* ejercicio 7 */
-
+/* ejercicio 7 *///////////////////////////////////////////
+/*
 let nombreperson4 = prompt ("introduce nombre de la persona")
 let pase = prompt ("tipo de pase")
 let entrada= prompt ("Posee entrada")
@@ -81,8 +81,53 @@ if (nombreperson4=="rafael)") {console.log("Bienvenido pase")
 if (pase=="normal"){console.log("Bienvenido, espere un momento")
 } else if (entrada=="no"){console.log("Adios");}
 
-if (entrada=="si"){ prompt("Decea usarlo?") 
-}else if(entradasi=="si") { console.log("Bienvenido pase");}
+if ((entrada=="si")){ prompt("Decea usarlo?") 
+}else if((entrada=="si")&&(entradasi== "si")) { console.log("Bienvenido pase");}
+
+/* Ejercicio 8*/
+/*
+let numeroincognita = 7
+let numeroingresado = prompt("Introduce un numero del 1 al 10") 
+let intentos = 2
+let intentos2 = 1
+if (numeroincognita == numeroingresado) {
+   console.log("Ganaste, haz adivinado el numero")
+} else if (numeroingresado < numeroincognita) {
+   console.log("EL numero ingresado es menor, vuelve a intentarlo: " + intentos + " intentos restantes");
+} else if (numeroingresado > numeroincognita) {console.log
+   ("EL numero ingresado es mayor, vuelve a intentarlo: " + intentos + " intentos restantes");
+}
+let numeroingresado2 = prompt("Introduce un numero del 1 al 10")
+if (numeroincognita == numeroingresado) {
+   console.log("Ganaste, haz adivinado el numero")
+} else if (numeroingresado2 < numeroincognita) {
+   console.log("EL numero ingresado es menor, vuelve a intentarlo " + intentos2 + " intentos restantes");
+} else if (numeroingresado2 > numeroincognita) {console.log
+   ("EL numero ingresado es mayor, vuelve a intentarlo: " + intentos2 + " intentos restantes");
+}
+let numeroingresado3 = prompt("Introduce un numero del 1 al 10")
+if (numeroincognita == numeroingresado3 ) {
+   console.log("Ganaste, haz adivinado el numero")
+} else if (numeroingresado3 < numeroincognita) {
+   console.log("No te quedan intentos");
+} else if (numeroingresado3 > numeroincognita) {console.log
+   ("No te quedan intentos");
+}
+
+/* ejercicio 9 */
+/*
+ let ingresatuedad= prompt("Ingresa tu edad")
+ 
+ if(0>=ingresatuedad,12>=ingresatuedad){console.log("Eres un infante");
+}else if(13>=ingresatuedad,18>=ingresatuedad){console.log("Eres un adolecente");
+}else if(19>=ingresatuedad,45>=ingresatuedad){console.log("Eres un adulto joven");
+}else if(ingresatuedad>45){console.log("Eres un anciano");}
+
+/* Ejercicio 10 */
+
+let primerjugador= prompt("Primer jugador imgrese su eleccion")
+let segundojugador= prompt("Segundo jugador imgrese su eleccion")
+
 
 
 
