@@ -33,13 +33,13 @@ if (numero5==numero6) {console.log ("Los numeros son iguales")
  } 
 /* ejercicio 4 */
 
-let numero6 = prompt ("introduce primer numnero")
+let numero7 = prompt ("introduce primer numnero")
 console.log(numero6);
-let numero7 = prompt ("introduce segundo numero")
+let numero8 = prompt ("introduce segundo numero")
 console.log(numero7);
-let numero8 = prompt ("introduce tercero numero")
+let numero9 = prompt ("introduce tercero numero")
 console.log(numero8);
-let resultado= Math.min (numero6,numero7,numero8);
+let resultado= Math.min (numero7,numero8,numero9);
 console.log("El numero menor es: "+resultado)
 
 /*ejercicio 5 */
@@ -68,7 +68,7 @@ if (licencia==true) {
    console.log("Puede manejar");
 } else{ console.log("No puede manejar");}
 
-/* ejercicio 7 *///////////////////////////////////////////
+/* ejercicio 7 */
 
  const nombre = prompt("Ingrese su nombre: ");
     const pase = prompt("¿Tiene pase VIP o normal? (vip/normal): ").toLowerCase();
