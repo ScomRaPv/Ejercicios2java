@@ -125,9 +125,68 @@ if (numeroincognita == numeroingresado3 ) {
 
 /* Ejercicio 10 */
 
-let primerjugador= prompt("Primer jugador imgrese su eleccion")
-let segundojugador= prompt("Segundo jugador imgrese su eleccion")
+let piedra = 0;
+let papel = 1;
+let tijera = 2;
 
+let opciones = ["Piedra", "Papel", "Tijera"];
+let opcionUsuario;
+let opcionUsuario2;
+opcionUsuario = prompt("¿Qué eliges jugador1?\nPiedra: 0\nPapel: 1\nTijera: 2", 0);
+
+opcionUsuario2 = prompt("¿Qué eliges jugador2?\nPiedra: 0\nPapel: 1\nTijera: 2", 0);
+
+
+
+alert(" jugador1 eligio " + opciones[opcionUsuario]);
+alert("jugador2 eligió " + opciones[opcionUsuario2]);
+
+if(opcionUsuario == piedra)
+{
+    if(opcionUsuario2 == piedra)
+    {
+        alert("Empate!");
+    }
+    else if(opcionUsuario2 == papel)
+    {
+        alert("Perdiste :( ");
+    }
+    else if(opcionUsuario2 == tijera)
+    {
+        alert("Ganaste!");
+    }
+    else {alert ("Uno de los jugadores hizo trampa");}
+}
+else if(opcionUsuario == papel)
+{
+    if(opcionUsuario2 == piedra)
+    {
+        alert("Ganaste!");
+    }
+    else if(opcionUsuario2 == papel)
+    {
+        alert("Empate!");
+    }
+    else if(opcionUsuario2 == tijera)
+    {
+        alert("Perdiste!");
+    }  else {alert ("Uno de los jugadores hizo trampa");}
+}
+else if(opcionUsuario == tijera)
+{
+    if(opcionUsuario2 == piedra)
+    {
+        alert("Perdiste!");
+    }
+    else if(opcionUsuario2 == papel)
+    {
+        alert("Ganaste!");
+    }
+    else if(opcionUsuario2 == tijera)
+    {
+        alert("Empate!");
+    }  else {alert ("Uno de los jugadores hizo trampa");}
+}
 
 
 
